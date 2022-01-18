@@ -1,0 +1,55 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 2em;
+}
+
+.logo h1 {
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.logo h2 {
+  border-bottom: none;
+  margin: 1em auto;
+  animation: subHeading 2s ease-in-out;
+  text-transform: capitalize;
+}
+
+.logo__subheading-span {
+  color: #1792d2;
+}
+
+.subtitle__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.subtitle {
+  margin: 0 0.5em;
+  padding-left: 0.4em;
+  color: #1792d2;
+  font-size: 0.765rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.fa-space-shuttle {
+  transform: rotate(-45deg);
+  color: #a51808;
+}
+
+/* Animation */
+@keyframes subHeading {
+  0% {
+    opacity: 0.2;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
