@@ -4,7 +4,7 @@ import './Card.css';
 const Card = ({ apiData, index }) => {
   const { url, title, date, explanation } = apiData;
   const [like, setLike] = useState(false);
-
+  //  This hook is used to save liked images to Local storage
   useEffect(() => {
     const data = localStorage.getItem(index);
     if (data) {
@@ -13,7 +13,6 @@ const Card = ({ apiData, index }) => {
   }, [index]);
 
   return (
-    // <div>
     <div key={title} className="card">
       <div className="image__container">
         <img src={url} alt={title} className="card__image" />
@@ -38,7 +37,6 @@ const Card = ({ apiData, index }) => {
         </button>
       </div>
     </div>
-    // </div>
   );
 };
 

@@ -1,11 +1,8 @@
 .footer {
   width: 100%;
-  padding: 1em 0;
+  margin: 1em 0;
   color: #fff;
-  /* display: flex; */
-  /* justify-content: flex-end; */
   font-weight: bold;
-  /* position: relative; */
 }
 
 .footer .fa-heart {
@@ -15,4 +12,5 @@
 .footer p {
   float: right;
   padding-right: 2em;
+  padding-bottom: 1em;
 }
