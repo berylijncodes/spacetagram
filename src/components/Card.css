@@ -82,6 +82,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
     max-width: 980px;
     /* min-width: fit-content; */
   }

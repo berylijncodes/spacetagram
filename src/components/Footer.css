@@ -1,13 +1,14 @@
-.footer {
+/* .footer {
   width: 100%;
-  /* height: 100vh; */
-  margin: 2em 2em 2em 0;
-  color: #fff;
-  display: flex;
-  justify-content: flex-end;
+  margin: 2em 0;
+  color: #fff; */
+/* display: flex;
+  justify-content: flex-end; */
+/* float: right;
   font-weight: bold;
-}
+  position: relative;
+} */
 
-.footer .fa-heart {
+/* .footer .fa-heart {
   color: #a51808;
-}
+} */

@@ -1,6 +1,7 @@
 import React from 'react';
 import useApi from '../custom-hook/useApi';
 import Card from './Card';
+
 import './Wrapper.css';
 
 function Wrapper() {
