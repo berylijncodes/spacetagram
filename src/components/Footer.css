@@ -1,14 +1,18 @@
-/* .footer {
+.footer {
   width: 100%;
-  margin: 2em 0;
-  color: #fff; */
-/* display: flex;
-  justify-content: flex-end; */
-/* float: right;
+  padding: 1em 0;
+  color: #fff;
+  /* display: flex; */
+  /* justify-content: flex-end; */
   font-weight: bold;
-  position: relative;
-} */
+  /* position: relative; */
+}
 
-/* .footer .fa-heart {
+.footer .fa-heart {
   color: #a51808;
-} */
+}
+
+.footer p {
+  float: right;
+  padding-right: 2em;
+}
