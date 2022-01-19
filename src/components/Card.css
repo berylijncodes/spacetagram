@@ -40,6 +40,7 @@ p {
 
 .card__body {
   text-align: justify;
+  padding-top: 1em;
 }
 
 .fa-heart {
