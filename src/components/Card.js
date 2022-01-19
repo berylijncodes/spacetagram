@@ -10,7 +10,7 @@ const Card = ({ apiData, index }) => {
     if (data) {
       setLike(JSON.parse(data));
     }
-  }, []);
+  }, [index]);
 
   return (
     // <div>
@@ -24,7 +24,7 @@ const Card = ({ apiData, index }) => {
         <p className="card__body">{explanation}</p>
       </div>
       <div>
-        <span
+        <button
           onClick={() => {
             setLike(!like);
             localStorage.setItem(index, JSON.stringify(!like));
@@ -35,7 +35,7 @@ const Card = ({ apiData, index }) => {
         >
           {/* {" "} */}
           <i class="fas fa-heart fa-2x"></i>
-        </span>
+        </button>
       </div>
     </div>
     // </div>
