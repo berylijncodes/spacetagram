@@ -8,7 +8,7 @@ function Wrapper() {
     'https://api.nasa.gov/planetary/apod?api_key=ZhZWP6d4gtOrpEOxtMcFAJDegMEDVw0fdRLAOgmx'
   );
   return (
-    <div>
+    <div className="container">
       {apiData?.map((data, index) => (
         <Card apiData={data} index={index} />
       ))}
